@@ -1,12 +1,17 @@
-from estructuras.lineales.lista_enlazada_simple import LinkedList
+import sys
+from PyQt5.QtWidgets import QApplication
+from load.menuui import LoadMenu
+
+
 
 def main():
-    lista = LinkedList
-    lista.insert_at_beginning(10)
-    lista.insert_at_beginning(20)
-    lista.insert_at_beginning(30)
-    lista.print_linked_list()
+    app = QApplication(sys.argv)
     
-
+    principal = LoadMenu()
+    principal.show()
+    sys.exit(app.exec_())
+    
 if __name__ == "__main__":
     main()
+    
+    
