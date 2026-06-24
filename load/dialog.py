@@ -16,7 +16,6 @@ class VentanaLista(QDialog):
         self.borrar.clicked.connect(self.accionEliminarFin)
         
     def actualizarPantalla(self):
-        """Método auxiliar para redibujar la lista en la interfaz cada vez que cambie"""
         temp = self.lista.head
         texto_lista = "Head -> "
         while temp is not None:
