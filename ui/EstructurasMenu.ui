@@ -33,6 +33,7 @@
      </property>
      <addaction name="actionLista_Enlazada"/>
      <addaction name="Pila"/>
+     <addaction name="Fija_Posfija"/>
     </widget>
     <addaction name="menuLineales"/>
     <addaction name="actionSalir"/>
@@ -53,6 +54,11 @@
   <action name="Pila">
    <property name="text">
     <string>Pila</string>
+   </property>
+  </action>
+  <action name="Fija_Posfija">
+   <property name="text">
+    <string>Fija-Posfija</string>
    </property>
   </action>
  </widget>

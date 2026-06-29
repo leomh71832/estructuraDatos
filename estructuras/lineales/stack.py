@@ -4,6 +4,9 @@ class Stack:
     def __init__(self):
         self.top = None
 
+    def is_empty(self):
+        return self.top is None
+    
     #Inserta un elemento
     def push(self, data):
         new_node = Node(data)
